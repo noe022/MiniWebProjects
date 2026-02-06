@@ -1,0 +1,63 @@
+* {
+  margin : 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #242424;
+  display: grid;
+  place-items: center;
+}
+
+#contador {
+  background-color: #FFD6F2;
+  width: 350px;
+  height: 400px;
+  max-width: 100%;
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 0 20px #FF7DD6;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 2.15rem;
+}
+
+#pantalla {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+  font-size: 4rem;
+  font-weight: bolder;
+}
+
+/* Mueve los tres botones abajo */
+.botones {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+/* Se encarga del estilo de los botones */
+.boton {
+  background-color: #FFFFFF;
+  border: 0;
+  padding: 1rem 1.3rem;
+  border-radius: 8rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#decrease {
+  background-color: #FF3B38;
+}
+
+#increase {
+  background-color: #5AE000;
+}
