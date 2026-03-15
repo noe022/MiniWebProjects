@@ -5,19 +5,19 @@ This repository contains small web projects I built while learning the fundament
 The goal of these projects was to practice basic concepts of HTML, CSS, and JavaScript.
 
 ## Projects
-###Calculator
+### Calculator
 
 A simple calculator that performs basic arithmetic operations.
 
 Technologies: HTML, CSS, JavaScript
 
-###Blog Layout
+### Blog Layout
 
 A basic blog page layout created to practice HTML structure and CSS styling.
 
 Technologies: HTML, CSS
 
-###Counter
+### Counter
 
 A simple counter application where the user can increase or decrease a number.
 
