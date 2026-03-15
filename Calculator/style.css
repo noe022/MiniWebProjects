@@ -28,24 +28,24 @@ body {
 #pantalla {
   grid-column: 1 / 5;
   background-color: #090c31;
-  padding: 1.5rem; /* Crea espacio entre texto y cuadrado*/
+  padding: 1.5rem;
   font-size: 1.5rem;
   text-align: right;
   border-radius: .5rem;
-  margin-bottom: 1.5rem; /* Genera espacio entre pantalla y botontes*/
+  margin-bottom: 1.5rem;
   font-weight: bold;
 }
 
 .boton{
   background-color: #006da7;
   color:white;
-  border: 0; /* Quito el borde */
+  border: 0;
   padding: 1.5rem .5rem;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: .5rem; 
-  cursor: pointer; /* Una mano */
+  cursor: pointer;
 }
 
 .boton:hover {

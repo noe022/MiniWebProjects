@@ -1,11 +1,8 @@
 const pantalla = document.querySelector("#pantalla");
 const botones = document.querySelectorAll(".boton");
 
-// Extrae el valor html de un boton, texto, etc...
-
 botones.forEach(function(boton) {
   boton.addEventListener('click', function() {
-    // Guarda el valor del boton apretado
     const botonApretado = boton.textContent;
     if (boton.id === 'c') {
       pantalla.textContent = '0';
@@ -34,7 +31,6 @@ botones.forEach(function(boton) {
       pantalla.textContent = botonApretado;
     } else {
       pantalla.textContent += botonApretado;
-      // No hago return porque estoy cargando los números
     }
   });
 })
