@@ -17,6 +17,6 @@ A simple counter application where the user can increase or decrease a number.
 
 Technologies: HTML, CSS, JavaScript
 
-###Author
+### Author
 
 Created by noe022
