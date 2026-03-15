@@ -11,12 +11,6 @@ A simple calculator that performs basic arithmetic operations.
 
 Technologies: HTML, CSS, JavaScript
 
-### Blog Layout
-
-A basic blog page layout created to practice HTML structure and CSS styling.
-
-Technologies: HTML, CSS
-
 ### Counter
 
 A simple counter application where the user can increase or decrease a number.
